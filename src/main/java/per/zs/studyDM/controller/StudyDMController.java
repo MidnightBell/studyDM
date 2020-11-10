@@ -9,12 +9,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import per.zs.studyDM.beans.entity.City;
-import per.zs.studyDM.mapper.CityMapper;
 import per.zs.studyDM.service.StudyDMService;
 
 /** 
